@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Navbar */
+.navbar-nav li {
+  font-size: 17px;
+}
+.navbar-brand {
+  letter-spacing: 6px;
+}
+
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#home {
+  background: url("./assets/logo1.png") rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  min-height: 700px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0.3px;
+}
+
+.sendd {
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  width: 100vw;
+}
+
+/* serve */
+.serve {
+  list-style: none;
+  margin-left: -15px;
+}
+.icon {
+  margin-right: 20px;
+  color: salmon;
+}
